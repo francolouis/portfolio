@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Franco Badinas</title>
+    <meta name="description" content="Contact Franco Badinas for creative design and video editing projects." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a href="index.html" class="brand" aria-label="Franco Badinas home">
+            <span class="brand-mark">F</span>
+            <span class="brand-text">Franco Badinas</span>
+          </a>
+
+          <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="work.html">Work</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+          </nav>
+
+          <div class="nav-actions">
+            <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+              <span class="theme-dot"></span>
+              Theme
+            </button>
+            <a class="button button-primary" href="contact.html">Book a project</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-hero compact-hero">
+          <div class="container narrow">
+            <p class="eyebrow">Contact</p>
+            <h1>Let’s make something bold and unforgettable.</h1>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container contact-layout">
+            <div class="contact-card">
+              <h3>Get in touch</h3>
+              <p>Available for freelance projects, campaign creative, and content partnerships.</p>
+              <ul>
+                <li>Email: hello@francobadinas.com</li>
+                <li>Instagram: @francobadinas</li>
+                <li>Based anywhere remotely</li>
+              </ul>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+              <div class="field-row">
+                <label>
+                  Name
+                  <input type="text" name="name" placeholder="Your name" />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" placeholder="Your email" />
+                </label>
+              </div>
+
+              <label>
+                Project type
+                <input type="text" name="project" placeholder="Brand identity, short-form video, campaign, etc." />
+              </label>
+
+              <label>
+                Message
+                <textarea name="message" rows="6" placeholder="Tell me about your project"></textarea>
+              </label>
+
+              <button type="submit" class="button button-primary">Send inquiry</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-wrap">
+          <p>© <span id="year"></span> Franco Badinas</p>
+          <div class="socials">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+            <a href="https://behance.net" target="_blank" rel="noreferrer">Behance</a>
+            <a href="https://vimeo.com" target="_blank" rel="noreferrer">Vimeo</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
